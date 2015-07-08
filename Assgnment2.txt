@@ -1,0 +1,25 @@
+a) Sample mean = 92.33333
+Mean value represents the point average of the sample
+
+
+One Sample t-test shows the following results
+
+data:  score
+t = 46.457, df = 29, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 88.26842 96.39825
+sample estimates:
+mean of x 
+ 92.33333 
+
+b) Yes the sample is likly to represent the polulation paramenter as the p-value of the t-test is less than 2.2e-16
+
+c) the computed standard error is 3.282263
+
+d) the value in part 3 measures the standard deviation of means of all possible samples.
+
+e) 95% confidence interval is : 88.26842 96.39825
+   Mean +- 1.96 * Standard Error
+
+f) Confidence interval represents the means values for the lower and upper limits for the 95% of the times the sample is drawn from the population

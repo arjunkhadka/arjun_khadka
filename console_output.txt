@@ -1,0 +1,24 @@
+> score = c(90,95,89,71,73,96,87,95,107,89,96,80,97,95,102,97,93,101,82,83,74,91,83,98,99,111,99,120,93,84)
+> 
+> mean(score)
+[1] 92.33333
+> 
+> 
+> t.test(score)
+
+	One Sample t-test
+
+data:  score
+t = 46.457, df = 29, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 88.26842 96.39825
+sample estimates:
+mean of x 
+ 92.33333 
+
+> 
+> sterr <- sd(score)/sqrt(length(x))
+> sterr
+[1] 3.282263
+> hist (score)
